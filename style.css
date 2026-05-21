@@ -1,0 +1,432 @@
+/* ============================================= */
+/* THÈME RÉTRO — VARIABLES                        */
+/* ============================================= */
+:root {
+    --color-primary: #c2410c;
+    --color-secondary: #0d9488;
+    --color-accent: #ca8a04;
+    --color-bg: #fef3e2;
+    --color-surface: #fffbeb;
+    --color-text: #422006;
+
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+    --radius: 16px;
+    --border-width: 2px;
+    --shadow: 0px 4px 0px rgba(66, 32, 6, 0.15);
+    --shadow-strong: 0px 4px 0px rgba(66, 32, 6, 0.35);
+}
+
+
+/* ============================================= */
+/* RESET & BASE                                   */
+/* ============================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    line-height: 1.7;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 70px 0;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--color-text);
+    letter-spacing: -0.5px;
+}
+
+p {
+    margin-bottom: 16px;
+    font-size: 17px;
+}
+
+strong {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+
+/* ============================================= */
+/* SECTION 1 : HERO                               */
+/* ============================================= */
+.hero {
+    background-color: var(--color-primary);
+    background-image:
+        radial-gradient(circle at 20% 30%, rgba(202, 138, 4, 0.25) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(13, 148, 136, 0.2) 0%, transparent 50%);
+    color: var(--color-surface);
+    text-align: center;
+    padding: 90px 0;
+    border-bottom: var(--border-width) solid var(--color-text);
+}
+
+.hero h1 {
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    color: var(--color-surface);
+}
+
+.hero h2 {
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: var(--color-surface);
+    opacity: 0.95;
+}
+
+.hero-sub {
+    font-size: 18px;
+    max-width: 650px;
+    margin: 0 auto 35px auto;
+    color: var(--color-surface);
+}
+
+
+/* ============================================= */
+/* BOUTON CTA                                     */
+/* ============================================= */
+.btn-primary {
+    display: inline-block;
+    background-color: var(--color-accent);
+    color: var(--color-text);
+    padding: 16px 36px;
+    border-radius: var(--radius);
+    border: var(--border-width) solid var(--color-text);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    box-shadow: var(--shadow-strong);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary:hover {
+    transform: translate(0, 2px);
+    box-shadow: 0px 2px 0px rgba(66, 32, 6, 0.35);
+}
+
+.btn-primary:active {
+    transform: translate(0, 4px);
+    box-shadow: 0px 0px 0px rgba(66, 32, 6, 0.35);
+}
+
+.btn-large {
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+
+/* ============================================= */
+/* SECTION 2 : LANGUES                            */
+/* ============================================= */
+.languages {
+    background-color: var(--color-surface);
+    text-align: center;
+    border-bottom: var(--border-width) solid var(--color-text);
+}
+
+.languages h2 {
+    font-size: 34px;
+    color: var(--color-primary);
+}
+
+.section-intro {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.language-grid {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin: 30px 0;
+}
+
+.language-grid li {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    padding: 10px 22px;
+    border-radius: var(--radius);
+    font-weight: 600;
+    font-size: 16px;
+    border: var(--border-width) solid var(--color-text);
+    box-shadow: var(--shadow);
+}
+
+.section-note {
+    font-style: italic;
+    color: var(--color-secondary);
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+/* ============================================= */
+/* SECTION 3 : POURQUOI LA DEMANDE                */
+/* ============================================= */
+.why-demand {
+    background-color: var(--color-bg);
+    border-bottom: var(--border-width) solid var(--color-text);
+}
+
+.why-demand h2 {
+    font-size: 34px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.highlight-box {
+    background-color: var(--color-surface);
+    border: var(--border-width) solid var(--color-text);
+    border-left: 6px solid var(--color-secondary);
+    padding: 26px 30px;
+    margin-top: 26px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+
+/* ============================================= */
+/* SECTION 4 & 5 : IMAGES (JOBS + CONTRATS)       */
+/* ============================================= */
+.social-proof-jobs {
+    background-color: var(--color-surface);
+    border-bottom: var(--border-width) solid var(--color-text);
+}
+
+.social-proof-jobs h2,
+.about-me h2 {
+    font-size: 34px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.about-me {
+    background-color: var(--color-bg);
+    border-bottom: var(--border-width) solid var(--color-text);
+}
+
+.image-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    margin: 36px 0;
+}
+
+.image-grid img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: var(--radius);
+    border: var(--border-width) solid var(--color-text);
+    box-shadow: var(--shadow-strong);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: translate(0, -4px) scale(1.02);
+    box-shadow: 0px 8px 0px rgba(66, 32, 6, 0.35);
+    position: relative;
+    z-index: 10;
+}
+
+
+/* ============================================= */
+/* SECTION 6 : CTA FINAL                          */
+/* ============================================= */
+.cta-final {
+    background-color: var(--color-secondary);
+    background-image:
+        radial-gradient(circle at 30% 20%, rgba(202, 138, 4, 0.25) 0%, transparent 50%),
+        radial-gradient(circle at 70% 80%, rgba(194, 65, 12, 0.2) 0%, transparent 50%);
+    color: var(--color-surface);
+    text-align: center;
+    border-bottom: var(--border-width) solid var(--color-text);
+}
+
+.cta-final h2 {
+    font-size: 38px;
+    color: var(--color-surface);
+    margin-bottom: 20px;
+}
+
+.cta-final p {
+    color: var(--color-surface);
+}
+
+.cta-final strong {
+    color: var(--color-accent);
+}
+
+.cta-list {
+    list-style: none;
+    margin: 25px 0 35px 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.cta-list li {
+    padding: 8px 0;
+    padding-left: 32px;
+    position: relative;
+    font-size: 17px;
+    color: var(--color-surface);
+}
+
+.cta-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-weight: bold;
+    font-size: 22px;
+    top: 4px;
+}
+
+.cta-note {
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+
+/* ============================================= */
+/* FOOTER                                         */
+/* ============================================= */
+footer {
+    background-color: var(--color-text);
+    color: var(--color-bg);
+    text-align: center;
+    padding: 24px 0;
+    font-size: 14px;
+}
+
+
+/* ============================================= */
+/* LIGHTBOX (zoom image plein écran)              */
+/* ============================================= */
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(66, 32, 6, 0.95);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: zoom-out;
+    flex-direction: column;
+}
+
+.lightbox.active {
+    display: flex;
+    animation: fadeIn 0.25s ease;
+}
+
+.lightbox img {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: var(--radius);
+    border: var(--border-width) solid var(--color-accent);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    object-fit: contain;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    color: var(--color-surface);
+    font-size: 44px;
+    font-weight: 300;
+    cursor: pointer;
+    line-height: 1;
+    z-index: 10000;
+}
+
+.lightbox-hint {
+    color: var(--color-surface);
+    font-size: 13px;
+    margin-top: 14px;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+/* ============================================= */
+/* RESPONSIVE                                     */
+/* ============================================= */
+@media (max-width: 600px) {
+    .hero h1 { font-size: 32px; }
+    .hero h2 { font-size: 20px; }
+    .hero-sub { font-size: 16px; }
+    section { padding: 50px 0; }
+    h2 { font-size: 26px !important; }
+    .cta-final h2 { font-size: 28px !important; }
+    .btn-large { padding: 16px 32px; font-size: 17px; }
+    .btn-primary { padding: 14px 24px; font-size: 16px; }
+
+    /* Images plus larges sur mobile */
+    .social-proof-jobs .container,
+    .about-me .container {
+        padding: 0 8px;
+    }
+
+    .image-grid {
+        gap: 18px;
+    }
+
+    .image-grid img {
+        max-width: 100%;
+    }
+}
+
+/* Indice tactile sur mobile : signaler que l'image est cliquable */
+@media (hover: none) {
+    .image-grid img {
+        position: relative;
+    }
+    .image-grid {
+        position: relative;
+    }
+    .image-grid::after {
+        content: "👆 Touche une image pour l'agrandir";
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        color: var(--color-secondary);
+        font-style: italic;
+        margin-top: 4px;
+    }
+}
