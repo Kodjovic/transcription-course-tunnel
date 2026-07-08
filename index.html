@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ta langue maternelle vaut de l'argent — Formation Transcription</title>
+    <title>Ta langue maternelle vaut de l'argent — Formation Transcription par KodjoFreelance</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon/favicon.png">
+    
+    <!-- Métadonnées de Partage (Open Graph & Social Media) -->
+    <meta property="og:title" content="Ta langue maternelle vaut de l'argent — Formation Transcription par KodjoFreelance">
+    <meta property="og:description" content="Découvre comment monétiser tes compétences linguistiques en Éwé, Mina, Wolof, Yoruba, Kabyè, Français ou Anglais depuis chez toi. Rejoins la formation dès maintenant !">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://img.youtube.com/vi/d-uo6bLRXFY/maxresdefault.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="675">
+    
+    <!-- Twitter Cards (X / Twitter) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ta langue maternelle vaut de l'argent — Formation Transcription">
+    <meta name="twitter:description" content="Découvre comment monétiser tes compétences linguistiques en Éwé, Mina, Wolof, Yoruba, Kabyè, Français ou Anglais depuis chez toi.">
+    <meta name="twitter:image" content="https://img.youtube.com/vi/d-uo6bLRXFY/maxresdefault.jpg">
+
+    <!-- Chargement de Playfair Display (Serif) pour les titres et Inter (Sans-Serif) pour le texte de lecture -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,197 +33,734 @@
 <!-- SECTION 1 : ACCROCHE (HERO)                   -->
 <!-- ============================================= -->
 <section class="hero" id="hero">
-    <div class="container">
-        <h1>Ta langue maternelle vaut de l'argent.</h1>
-        <h2>Voici comment la monétiser grâce à la transcription.</h2>
-        <p class="hero-sub">
-            Tu parles Éwé, Mina, Wolof, Yoruba, Kabyè, Français ou Anglais ?
-            Des entreprises du monde entier paient en ce moment même pour
-            écouter et écrire ces langues. Et toi, tu peux le faire depuis ta maison,
-            avec un simple téléphone ou un ordinateur.
-        </p>
-        <a href="https://chat.whatsapp.com/DyXZbq9zqIJ9NlV6VCzhBr?mlu=0&s=cl&p=a" target="_blank" rel="noopener noreferrer" class="btn-primary">Rejoindre le groupe WhatsApp</a>
+    <div class="container hero-container">
+        <!-- Colonne gauche : Titre, sous-titre, description, CTA -->
+        <div class="hero-left">
+            <div class="brand"></div>
+            <h1 class="hero-title">Ta langue maternelle vaut de l'argent.</h1>
+            <p class="hero-subtitle">Voici comment la monétiser grâce à la transcription.</p>
+            <p class="hero-description">
+                Tu parles <strong>Éwé, Mina, Wolof, Yoruba, Kabyè, Français ou Anglais</strong> ? Des entreprises du monde entier paient chaque jour pour faire transcrire ces langues. Apprends à saisir ces opportunités depuis chez toi, à ton rythme, avec un simple téléphone ou un ordinateur.
+            </p>
+            <div class="hero-cta-wrapper">
+                <a href="#offre-section" class="btn-primary">Rejoindre la formation - Accès Fondateur</a>
+            </div>
+        </div>
+
+        <!-- Colonne droite : Lecteur vidéo mockup + Témoignages -->
+        <div class="hero-right">
+            <!-- Mockup de lecteur vidéo 16:9 -->
+            <div class="video-mockup" id="video-container" data-video-src="https://www.youtube.com/embed/d-uo6bLRXFY?autoplay=1&rel=0">
+                <div class="video-thumbnail" id="play-video-trigger">
+                    <!-- Overlay sombre et boutons de contrôle réalistes -->
+                    <div class="video-play-btn">
+                        <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </div>
+                    <div class="video-badge">Vidéo de présentation (3:15)</div>
+                    <div class="video-controls">
+                        <span class="control-play">▶</span>
+                        <div class="control-progress-bar">
+                            <div class="control-progress-filled"></div>
+                        </div>
+                        <span class="control-time">00:00 / 03:15</span>
+                        <span class="control-volume">🔊</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloc témoignages sous la vidéo -->
+            <div class="testimonies-block">
+                <h3 class="testimonies-title">Rejoins ceux qui vivent déjà de leur langue</h3>
+                <div class="testimonies-list">
+                    <!-- Témoignage 1 -->
+                    <div class="testimony-item">
+                        <div class="testimony-meta">
+                            <div class="testimony-avatar">AF</div>
+                            <div class="testimony-info">
+                                <span class="testimony-name">Afi (Lomé, Togo)</span>
+                                <span class="testimony-stars">★★★★★</span>
+                            </div>
+                        </div>
+                        <p class="testimony-text">
+                            « Grâce à ma langue maternelle, j'ai pu décrocher mon premier contrat de transcription en Éwé sur Upwork. Travailler depuis ma chambre pour des clients internationaux, c'est devenu une réalité. »
+                        </p>
+                    </div>
+                    <!-- Témoignage 2 -->
+                    <div class="testimony-item">
+                        <div class="testimony-meta">
+                            <div class="testimony-avatar">MD</div>
+                            <div class="testimony-info">
+                                <span class="testimony-name">Moussa (Dakar, Sénégal)</span>
+                                <span class="testimony-stars">★★★★★</span>
+                            </div>
+                        </div>
+                        <p class="testimony-text">
+                            « Je n'imaginais pas que mon Wolof avait autant de valeur en ligne. La formation m'a montré exactement comment aborder les clients. Aujourd'hui, je fais ça à temps partiel à côté de mes études. »
+                        </p>
+                    </div>
+                    <!-- Témoignage 3 -->
+                    <div class="testimony-item">
+                        <div class="testimony-meta">
+                            <div class="testimony-avatar">KO</div>
+                            <div class="testimony-info">
+                                <span class="testimony-name">Koffi (Cotonou, Bénin)</span>
+                                <span class="testimony-stars">★★★★★</span>
+                            </div>
+                        </div>
+                        <p class="testimony-text">
+                            « Les outils d'intelligence artificielle gratuits présentés dans le programme m'ont permis de diviser mon temps de travail par trois. Je recommande cette formation à 100% ! »
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-
 <!-- ============================================= -->
-<!-- SECTION 2 : LES LANGUES CIBLÉES               -->
+<!-- SECTION 2 : QUALIFICATION DE L'AUDIENCE       -->
 <!-- ============================================= -->
-<section class="languages" id="languages">
-    <div class="container">
-        <h2>Les langues qui rapportent aujourd'hui</h2>
-        <p class="section-intro">
-            Si tu parles l'une de ces langues, tu as déjà une partie du travail fait :
+<section class="qualification" id="qualification">
+    <div class="container text-center">
+        <h2 class="section-title">Les langues qui rapportent aujourd'hui</h2>
+        <p class="section-subtitle">
+            Si tu maîtrises au moins l'une des langues ci-dessous, tu détiens une compétence hautement recherchée en ligne :
         </p>
-        <ul class="language-grid">
-            <li>Éwé</li>
-            <li>Mina</li>
-            <li>Wolof</li>
-            <li>Yoruba</li>
-            <li>Kabyè</li>
-            <li>Français</li>
-            <li>Anglais</li>
-            <li>... et beaucoup d'autres langues africaines</li>
-        </ul>
-        <p class="section-note">
+        
+        <!-- Pills des langues -->
+        <div class="languages-pills">
+            <span class="pill">Éwé</span>
+            <span class="pill">Mina</span>
+            <span class="pill">Wolof</span>
+            <span class="pill">Yoruba</span>
+            <span class="pill">Kabyè</span>
+            <span class="pill">Français</span>
+            <span class="pill">Anglais</span>
+            <span class="pill-highlight">+ autres langues africaines</span>
+        </div>
+
+        <!-- Phrase de renforcement en vert -->
+        <p class="reinforcement-green">
             Plus ta langue est rare en ligne, plus elle a de la valeur.
         </p>
     </div>
 </section>
 
+<!-- ============================================= -->
+<!-- SECTION 3 : LE MÉCANISME                       -->
+<!-- ============================================= -->
+<section class="mechanism" id="mechanism">
+    <div class="container">
+        <h2 class="section-title text-center">Pourquoi ces langues sont si demandées en ce moment ?</h2>
+        <p class="mechanism-intro text-center">
+            Les plus grandes entreprises technologiques du monde investissent des milliards de dollars pour concevoir et perfectionner des intelligences artificielles (comme ChatGPT, Google Translate, Siri ou d'autres assistants vocaux).
+        </p>
+        <p class="mechanism-intro text-center">
+            Pour que ces outils d'IA comprennent et s'adaptent correctement aux réalités africaines, elles ont un besoin crucial d'<strong>écouter, de lire et de valider des fichiers audio et texte</strong> dans nos langues maternelles.
+        </p>
+
+        <!-- Bloc split "Eux vs Toi" -->
+        <div class="split-comparison">
+            <!-- Panneau Eux -->
+            <div class="comparison-panel panel-them">
+                <h3 class="panel-title">Eux</h3>
+                <p class="panel-desc">
+                    Un transcripteur professionnel basé à Paris, Montréal ou New York ne peut pas transcrire de l'Éwé, du Mina, du Kabyè ou du Wolof.
+                </p>
+                <p class="panel-desc">
+                    Il ne comprend pas les mots, ne saisit pas les expressions typiques, ne perçoit pas les accents locaux et n'a pas le contexte culturel. Il est <strong>totalement exclu</strong> de ce marché en pleine expansion.
+                </p>
+            </div>
+            
+            <!-- Panneau Toi -->
+            <div class="comparison-panel panel-you">
+                <h3 class="panel-title">Toi</h3>
+                <p class="panel-desc">
+                    C'est ta langue maternelle. Tu la parles, la comprends et la vis chaque jour de manière tout à fait naturelle.
+                </p>
+                <p class="panel-desc">
+                    C'est ton <strong>superpouvoir exclusif</strong>. Aucune machine ne peut remplacer ton intuition culturelle, et aucun transcripteur occidental ne peut rivaliser avec toi. Et aujourd'hui, ce superpouvoir est très recherché.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- ============================================= -->
-<!-- SECTION 3 : POURQUOI CES LANGUES SONT DEMANDÉES -->
+<!-- SECTION 4 : PREUVE SOCIALE EXTERNE — JOBS     -->
 <!-- ============================================= -->
-<section class="why-demand" id="why-demand">
+<section class="jobs-proof" id="jobs-proof">
     <div class="container">
-        <h2>Pourquoi ces langues sont si demandées en ce moment ?</h2>
-        <p>
-            Les grandes entreprises de technologie construisent des intelligences
-            artificielles comme ChatGPT, Google Translate, les assistants vocaux.
+        <h2 class="section-title text-center">Les jobs sont déjà là. En ce moment.</h2>
+        <p class="section-subtitle text-center">
+            Voici de véritables opportunités publiées récemment sur des plateformes de freelance internationales demandant spécifiquement nos langues :
         </p>
-        <p>
-            Pour que ces IA comprennent <strong>toutes les langues du monde</strong>,
-            elles ont besoin d'entendre et de lire ces langues. Beaucoup de langues.
-            Y compris les nôtres.
+
+        <!-- Grille de vraies captures d'écran d'annonces Upwork -->
+        <div class="screenshots-grid jobs-grid">
+            <div class="screenshot-container">
+                <img src="Job/Job_1.png" alt="Annonce Upwork Transcription 1" class="lightbox-trigger">
+                <div class="screenshot-caption">Annonce de projet de transcription #1</div>
+            </div>
+            <div class="screenshot-container">
+                <img src="Job/Job_2.png" alt="Annonce Upwork Transcription 2" class="lightbox-trigger">
+                <div class="screenshot-caption">Annonce de projet de transcription #2</div>
+            </div>
+            <div class="screenshot-container">
+                <img src="Job/job_3.png" alt="Annonce Upwork Transcription 3" class="lightbox-trigger">
+                <div class="screenshot-caption">Annonce de projet de transcription #3</div>
+            </div>
+            <div class="screenshot-container">
+                <img src="Job/job_4.png" alt="Annonce Upwork Transcription 4" class="lightbox-trigger">
+                <div class="screenshot-caption">Annonce de projet de transcription #4</div>
+            </div>
+            <div class="screenshot-container">
+                <img src="Job/Job_5.png" alt="Annonce Upwork Transcription 5" class="lightbox-trigger">
+                <div class="screenshot-caption">Annonce de projet de transcription #5</div>
+            </div>
+            <div class="screenshot-container">
+                <img src="Job/job_6.png" alt="Annonce Upwork Transcription 6" class="lightbox-trigger">
+                <div class="screenshot-caption">Annonce de projet de transcription #6</div>
+            </div>
+            <div class="screenshot-container">
+                <img src="Job/Job_7.png" alt="Annonce Upwork Transcription 7" class="lightbox-trigger">
+                <div class="screenshot-caption">Annonce de projet de transcription #7</div>
+            </div>
+        </div>
+
+        <p class="jobs-disclaimer text-center">
+            Ce ne sont pas des promesses. Ce sont des annonces réelles que tu peux vérifier toi-même.
         </p>
-        <p>
-            Et c'est là que ça devient intéressant pour toi :
-        </p>
-        <div class="highlight-box">
+    </div>
+</section>
+
+<!-- ============================================= -->
+<!-- SECTION 5 : AUTORITÉ / CRÉDIBILITÉ            -->
+<!-- ============================================= -->
+<section class="authority" id="authority">
+    <div class="container">
+        <h2 class="section-title text-center">Pourquoi m'écouter, moi ?</h2>
+        
+        <div class="authority-story">
             <p>
-                <strong>Un transcripteur en Europe ou aux États-Unis ne peut pas
-                transcrire de l'Éwé, du Mina ou du Wolof.</strong>
-                Il ne comprend pas la langue. Il ne connaît pas les expressions.
-                Il n'entend pas les nuances.
+                Je m'appelle <strong>Kodjo</strong>. Je ne suis pas un énième formateur en ligne qui se contente de répéter des théories lues sur des blogs ou apprises à la va-vite. <strong>Je vis de ce métier à plein temps depuis maintenant 3 ans, avec le statut Top Rated sur Upwork.</strong>
             </p>
             <p>
-                <strong>Toi, oui.</strong> C'est ta langue maternelle. C'est ton
-                superpouvoir. Et aujourd'hui, ce superpouvoir se paie.
+                Chaque jour, je transcris des fichiers audio et vidéo en <strong>Éwé, Français et Anglais</strong>. Ce travail m'a permis de me construire une véritable seconde source de revenu, stable et régulière, et de collaborer avec des entreprises basées en Europe, aux États-Unis et en Asie. Tout cela sans jamais quitter ma maison.
             </p>
         </div>
-    </div>
-</section>
 
-
-<!-- ============================================= -->
-<!-- SECTION 4 : PREUVE SOCIALE — JOBS POSTÉS      -->
-<!-- ============================================= -->
-<section class="social-proof-jobs" id="jobs">
-    <div class="container">
-        <h2>Les jobs sont déjà là. En ce moment.</h2>
-        <p class="section-intro">
-            Voici des offres réelles, publiées sur des plateformes internationales,
-            qui demandent exactement ces langues :
-        </p>
-        <div class="image-grid">
-            <img src="Job/Job_1.png" alt="Offre de transcription 1">
-            <img src="Job/Job_2.png" alt="Offre de transcription 2">
-            <img src="Job/job_3.png" alt="Offre de transcription 3">
-            <img src="Job/job_4.png" alt="Offre de transcription 4">
-            <img src="Job/Job_5.png" alt="Offre de transcription 5">
-            <img src="Job/job_6.png" alt="Offre de transcription 6">
-            <img src="Job/Job_7.png" alt="Offre de transcription 7">
+        <!-- Badge Top Rated + Capture Profil Complet -->
+        <div class="authority-profile-wrapper">
+            <!-- Badge Top Rated en SVG haute fidélité -->
+            <div class="badge-box">
+                <svg viewBox="0 0 160 160" width="160" height="160" class="top-rated-badge-svg" xmlns="http://www.w3.org/2000/svg" aria-label="Badge Upwork Top Rated">
+                    <circle cx="80" cy="80" r="74" fill="none" stroke="#d99a2b" stroke-width="4" />
+                    <circle cx="80" cy="80" r="70" fill="#1f3a52" />
+                    <path d="M80 30 C95 30 108 38 108 50 C108 75 80 95 80 95 C80 95 52 75 52 50 C52 38 65 30 80 30 Z" fill="#d99a2b" />
+                    <path d="M68 55 L72 45 L80 52 L88 45 L92 55 L92 65 L68 65 Z" fill="#1f3a52" />
+                    <circle cx="80" cy="41" r="2.5" fill="#1f3a52" />
+                    <circle cx="70" cy="44" r="2" fill="#1f3a52" />
+                    <circle cx="90" cy="44" r="2" fill="#1f3a52" />
+                    <path id="textPath" d="M30 120 A 55 55 0 0 0 130 120" fill="none" />
+                    <text fill="#ffffff" font-family="'Inter', sans-serif" font-size="11" font-weight="900" letter-spacing="1">
+                        <textPath href="#textPath" startOffset="50%" text-anchor="middle">
+                            TOP-RATED UPWORK
+                        </textPath>
+                    </text>
+                    <text x="80" y="112" fill="#d99a2b" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">★★★★★</text>
+                </svg>
+            </div>
+            <!-- Capture du profil complet -->
+            <div class="profile-box">
+                <img src="profil/profil.png" alt="Profil Upwork complet de Kodjo" class="lightbox-trigger">
+                <div class="screenshot-caption">Profil Upwork vérifié de Kodjo</div>
+            </div>
         </div>
-        <p class="section-note">
-            Ce ne sont pas des promesses. Ce sont des annonces réelles que tu peux
-            vérifier toi-même.
-        </p>
-    </div>
-</section>
 
+        <p class="contracts-intro text-center" style="margin-top: 48px; margin-bottom: 24px; font-weight: 500; font-size: 1.1rem; color: var(--color-text-mid);">
+            Voici un aperçu de mes propres contrats et des évaluations laissées par mes clients satisfaits sur mon profil Upwork :
+        </p>
 
-<!-- ============================================= -->
-<!-- SECTION 5 : POURQUOI ME CHOISIR               -->
-<!-- ============================================= -->
-<section class="about-me" id="about">
-    <div class="container">
-        <h2>Pourquoi m'écouter, moi ?</h2>
-        <p>
-            Je ne suis pas un coach qui répète ce qu'il a lu sur internet.
-            <strong>Je vis du métier depuis 3 ans.</strong>
-        </p>
-        <p>
-            Je transcris en Éwé, en Français et en Anglais. Chaque mois, je reçois
-            des contrats réels, payés en devises, depuis ma maison.
-            Voici quelques-uns de mes contrats :
-        </p>
-        <div class="image-grid">
-            <img src="Contrat/contrat_1.png" alt="Mon contrat 1">
-            <img src="Contrat/contrat_2.png" alt="Mon contrat 2">
-            <img src="Contrat/Conrat_3.png" alt="Mon contrat 3">
+        <!-- Carousel Interactif 3D avec Focus Central (Affichage par 3, intervalle de 5s, centre agrandi) -->
+        <div class="contracts-carousel-container" id="contracts-carousel">
+            <!-- Flèches de navigation -->
+            <button class="carousel-nav btn-prev" aria-label="Contrat précédent">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </button>
+            <button class="carousel-nav btn-next" aria-label="Contrat suivant">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                </svg>
+            </button>
+
+            <div class="carousel-viewport">
+                <div class="carousel-track">
+                    <div class="carousel-item">
+                        <img src="Contrat/contrat_1.png" alt="Contrat Upwork Réel 1" class="lightbox-trigger">
+                        <div class="screenshot-caption">Évaluation client & gain validé</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Contrat/contrat_2.png" alt="Contrat Upwork Réel 2" class="lightbox-trigger">
+                        <div class="screenshot-caption">Contrat en cours & retour positif</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Contrat/Conrat_3.png" alt="Contrat Upwork Réel 3" class="lightbox-trigger">
+                        <div class="screenshot-caption">Preuve de gains cumulés</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Contrat/contrat_4.png" alt="Contrat Upwork Réel 4" class="lightbox-trigger">
+                        <div class="screenshot-caption">Nouveau contrat longue durée</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Contrat/contrat_5.png" alt="Contrat Upwork Réel 5" class="lightbox-trigger">
+                        <div class="screenshot-caption">Bonus client & félicitations</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Contrat/contrat_6.png" alt="Contrat Upwork Réel 6" class="lightbox-trigger">
+                        <div class="screenshot-caption">Projet de transcription payé</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Contrat/contrat_7.png" alt="Contrat Upwork Réel 7" class="lightbox-trigger">
+                        <div class="screenshot-caption">Retour client 5 étoiles</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicateurs de position (dots) -->
+            <div class="carousel-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+                <span class="dot" data-index="6"></span>
+            </div>
         </div>
-        <p>
-            Ce que je vais te montrer, ce n'est pas de la théorie.
-            <strong>C'est ce que je fais, pour de vrai, chaque semaine.</strong>
-            Et je veux ouvrir cette porte à d'autres personnes qui parlent nos langues.
+
+        <p class="authority-closing text-center">
+            Ce que je vais te montrer, ce n'est pas de la théorie. <strong>C'est ce que je fais, pour de vrai, chaque semaine.</strong>
         </p>
     </div>
 </section>
 
-
 <!-- ============================================= -->
-<!-- SECTION 6 : APPEL À L'ACTION FINAL            -->
+<!-- SECTION 6 : CE QUE TU VAS APPRENDRE           -->
 <!-- ============================================= -->
-<section class="cta-final" id="cta">
+<section class="learning-program" id="learning-program">
     <div class="container">
-        <h2>Prêt(e) à transformer ta langue en revenu ?</h2>
-        <p>
-            Rejoins le groupe WhatsApp. C'est gratuit. Tu y recevras :
+        <h2 class="section-title text-center">Ce que tu vas apprendre</h2>
+        <p class="section-subtitle text-center">
+            Un programme structuré étape par étape pour passer de débutant à professionnel reconnu sur le marché :
         </p>
-        <ul class="cta-list">
-            <li>Les détails de la formation</li>
-            <li>Des exemples concrets de jobs</li>
-            <li>Des conseils que je ne partage nulle part ailleurs</li>
-        </ul>
-        <a href="https://chat.whatsapp.com/DyXZbq9zqIJ9NlV6VCzhBr?mlu=0&s=cl&p=a" target="_blank" rel="noopener noreferrer" class="btn-primary btn-large">Rejoindre le groupe WhatsApp</a>
-        <p class="cta-note">
-            Pas de spam. Tu peux quitter quand tu veux.
+
+        <!-- Grille de 6 cartes (2 colonnes) -->
+        <div class="program-grid">
+            <!-- Module 1 -->
+            <div class="program-card">
+                <span class="module-badge">Module 1</span>
+                <h3 class="card-title">Les fondamentaux</h3>
+                <p class="card-desc">
+                    Maîtrise les règles de saisie, les standards de ponctuation et les formats exigés par les clients professionnels.
+                </p>
+            </div>
+
+            <!-- Module 2 -->
+            <div class="program-card">
+                <span class="module-badge">Module 2</span>
+                <h3 class="card-title">Ton avantage africain</h3>
+                <p class="card-desc">
+                    Apprends à valoriser tes langues maternelles (Éwé, Wolof, Yoruba...) pour éliminer d'office la concurrence étrangère.
+                </p>
+            </div>
+
+            <!-- Module 3 - MISE EN AVANT AVEC BORDURE VERTE -->
+            <div class="program-card highlighted-card">
+                <div class="highlight-badge">Le grand secret</div>
+                <span class="module-badge">Module 3</span>
+                <h3 class="card-title">Les outils + TurboScribe offert</h3>
+                <p class="card-desc">
+                    Découvre les logiciels de ralentissement audio professionnels et profite de <strong>TurboScribe</strong>, un outil d'intelligence artificielle exceptionnel conçu pour transcrire automatiquement et offert de façon illimitée à nos élèves.
+                </p>
+            </div>
+
+            <!-- Module 4 -->
+            <div class="program-card">
+                <span class="module-badge">Module 4</span>
+                <h3 class="card-title">Trouver tes premiers clients</h3>
+                <p class="card-desc">
+                    Crée un profil irrésistible sur Upwork, rédige des propositions percutantes et décroche ton premier contrat payé en quelques jours.
+                </p>
+            </div>
+
+            <!-- Module 5 -->
+            <div class="program-card">
+                <span class="module-badge">Module 5</span>
+                <h3 class="card-title">Gérer ton activité</h3>
+                <p class="card-desc">
+                    Mets en place tes solutions de retrait d'argent en Afrique en toute sécurité et apprends à organiser tes journées de travail de chez toi.
+                </p>
+            </div>
+
+            <!-- Module 6 -->
+            <div class="program-card">
+                <span class="module-badge">Module 6</span>
+                <h3 class="card-title">Bonus & ressources</h3>
+                <p class="card-desc">
+                    Accède à nos modèles de messages types, à des fichiers d'exercices d'entraînement réels et à des guides de correction rapides.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================= -->
+<!-- SECTION 7 : BONUS INCLUS                      -->
+<!-- ============================================= -->
+<section class="bonuses" id="bonuses">
+    <div class="container">
+        <h2 class="section-title text-center">Les bonus inclus avec ton achat</h2>
+        <p class="section-subtitle text-center">
+            Ces ressources à forte valeur ajoutée te sont offertes gratuitement dès aujourd'hui pour te garantir les meilleurs résultats possibles :
+        </p>
+
+        <!-- 3 cartes de bonus -->
+        <div class="bonuses-grid">
+            <!-- Bonus 1 -->
+            <div class="bonus-card">
+                <span class="bonus-tag">Inclus</span>
+                <h3 class="bonus-title">TurboScribe Pro</h3>
+                <p class="bonus-desc">
+                    Un accès complet et 100% illimité à notre outil IA de transcription automatique. Divise ton temps de travail par 3 sur tous tes projets.
+                </p>
+            </div>
+
+            <!-- Bonus 2 -->
+            <div class="bonus-card">
+                <span class="bonus-tag">Inclus</span>
+                <h3 class="bonus-title">Dictionnaire Local #1</h3>
+                <p class="bonus-desc">
+                    Un guide complet d'orthographe, de grammaire et d'expressions régionales pour les langues <strong>Éwé et Mina</strong>.
+                </p>
+            </div>
+
+            <!-- Bonus 3 -->
+            <div class="bonus-card">
+                <span class="bonus-tag">Inclus</span>
+                <h3 class="bonus-title">Dictionnaire Local #2</h3>
+                <p class="bonus-desc">
+                    Le dictionnaire de référence et le recueil terminologique pour la transcription précise du <strong>Wolof</strong>.
+                </p>
+            </div>
+        </div>
+
+        <p class="bonus-disclaimer text-center">
+            * Note importante : Ces bonus exclusifs sont strictement réservés aux acheteurs de la formation et ne seront pas partagés au sein du groupe WhatsApp gratuit.
         </p>
     </div>
 </section>
 
+<!-- ============================================= -->
+<!-- SECTION 8 : APPEL À L'ACTION FINAL (CTA)     -->
+<!-- ============================================= -->
+<section class="cta-final-section" id="offre-section">
+    <div class="container text-center">
+        <h2 class="cta-title">Prêt(e) à transformer ta langue en revenu ?</h2>
+        <p class="cta-subtitle">
+            Profite d'un accès immédiat aux premiers modules de formation disponibles dès aujourd'hui. De nouveaux modules thématiques sont publiés chaque semaine.
+        </p>
+
+        <!-- Carte de prix Accès Fondateur -->
+        <div class="price-card">
+            <span class="price-badge">Offre Spéciale Lancement</span>
+            <h3 class="price-card-title">Accès Fondateur</h3>
+            
+            <div class="price-value-container">
+                <span class="old-price">50 000 FCFA</span>
+                <span class="current-price">15 000 FCFA</span>
+            </div>
+            
+            <p class="price-condition">Paiement unique, accès à vie et mises à jour incluses.</p>
+
+            <!-- Liste des éléments inclus -->
+            <ul class="price-features">
+                <li>
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">Les 6 modules complets de la formation</span>
+                </li>
+                <li>
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">L'accès gratuit et illimité à TurboScribe Pro</span>
+                </li>
+                <li>
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">Les 2 dictionnaires de transcription locale</span>
+                </li>
+                <li>
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">Accès immédiat à la communauté privée d'entraide</span>
+                </li>
+                <li>
+                    <span class="feature-icon">✓</span>
+                    <span class="feature-text">Sessions hebdomadaires de Questions / Réponses</span>
+                </li>
+            </ul>
+
+            <!-- Bouton de paiement principal -->
+            <div class="payment-btn-wrapper">
+                <a href="https://chat.whatsapp.com/DyXZbq9zqIJ9NlV6VCzhBr?mlu=0&s=cl&p=a" target="_blank" rel="noopener noreferrer" class="btn-primary-payment">S'inscrire et payer 15 000 FCFA</a>
+            </div>
+        </div>
+
+        <!-- Bloc secondaire plus discret (Groupe d'attente WhatsApp) -->
+        <div class="secondary-wait-block">
+            <p class="secondary-text">Tu préfères poser tes questions avant de t'engager ?</p>
+            <a href="https://chat.whatsapp.com/DyXZbq9zqIJ9NlV6VCzhBr?mlu=0&s=cl&p=a" target="_blank" rel="noopener noreferrer" class="btn-secondary-wait">Discuter avec nous sur WhatsApp</a>
+            <p class="temporary-note">* Ce bloc d'attente est temporaire et sera retiré dès le lancement officiel de la formation.</p>
+        </div>
+    </div>
+</section>
 
 <!-- ============================================= -->
 <!-- FOOTER                                        -->
 <!-- ============================================= -->
-<footer>
-    <div class="container">
-        <p>&copy; 2026 - KodjoFreelance. Tous droits réservés.</p>
+<footer class="footer">
+    <div class="container text-center">
+        <p class="footer-text">&copy; 2026 - KodjoFreelance. Tous droits réservés.</p>
     </div>
 </footer>
 
-
 <!-- ============================================= -->
-<!-- LIGHTBOX (ouverture image en plein écran)     -->
+<!-- LIGHTBOX (visualisation des images réelles)    -->
 <!-- ============================================= -->
 <div id="lightbox" class="lightbox" onclick="closeLightbox()">
     <span class="lightbox-close">&times;</span>
-    <img id="lightbox-img" src="" alt="">
-    <p class="lightbox-hint">Pince pour zoomer · Touche pour fermer</p>
+    <img id="lightbox-img" src="" alt="Aperçu plein écran">
+    <p class="lightbox-hint">Touche n'importe où ou appuie sur Échap pour fermer</p>
 </div>
 
 <script>
-    document.querySelectorAll('.image-grid img').forEach(img => {
+    // Gestion du chargement dynamique de la vidéo YouTube (façade performance)
+    const playVideoTrigger = document.getElementById('play-video-trigger');
+    if (playVideoTrigger) {
+        playVideoTrigger.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const container = document.getElementById('video-container');
+            const videoSrc = container.getAttribute('data-video-src');
+            
+            // Remplace l'aperçu par l'Iframe YouTube avec autoplay
+            container.innerHTML = `
+                <iframe 
+                    src="${videoSrc}" 
+                    title="Vidéo de présentation" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen 
+                    style="width: 100%; height: 100%; border: none; border-radius: 8px;">
+                </iframe>
+            `;
+        });
+    }
+
+    // Ajout des écouteurs de clic sur toutes les images triggers
+    document.querySelectorAll('.lightbox-trigger').forEach(img => {
         img.addEventListener('click', function(e) {
             e.stopPropagation();
             const lightbox = document.getElementById('lightbox');
             const lightboxImg = document.getElementById('lightbox-img');
             lightboxImg.src = this.src;
             lightbox.classList.add('active');
-            document.body.style.overflow = 'hidden';
+            document.body.style.overflow = 'hidden'; // Bloquer le défilement arrière-plan
         });
     });
 
+    // Fermeture de la lightbox
     function closeLightbox() {
         document.getElementById('lightbox').classList.remove('active');
-        document.body.style.overflow = '';
+        document.body.style.overflow = ''; // Restaurer le défilement
     }
 
+    // Gestion de la touche Échap
     document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'Escape') {
+            closeLightbox();
+        }
     });
+
+    // Gestion du Carrousel 3D interactif des contrats (Défilement infini illimité par clonage dynamique)
+    const carouselContainer = document.getElementById('contracts-carousel');
+    if (carouselContainer) {
+        const track = carouselContainer.querySelector('.carousel-track');
+        let items = Array.from(carouselContainer.querySelectorAll('.carousel-item'));
+        const dots = carouselContainer.querySelectorAll('.dot');
+        const btnPrev = carouselContainer.querySelector('.btn-prev');
+        const btnNext = carouselContainer.querySelector('.btn-next');
+        
+        const originalCount = items.length;
+        const numClones = 3; // Cloner 3 éléments de chaque côté pour assurer un défilement 3D continu et transparent
+        
+        // 1. Clonage dynamique des éléments pour créer la boucle infinie
+        // Cloner les 3 premiers et les ajouter à la fin
+        for (let i = 0; i < numClones; i++) {
+            const clone = items[i].cloneNode(true);
+            clone.classList.add('clone-item');
+            track.appendChild(clone);
+        }
+        // Cloner les 3 derniers et les insérer au début dans l'ordre correct
+        for (let i = originalCount - 1; i >= originalCount - numClones; i--) {
+            const clone = items[i].cloneNode(true);
+            clone.classList.add('clone-item');
+            track.insertBefore(clone, track.firstChild);
+        }
+
+        // Re-sélectionner l'ensemble des éléments (originaux + clones)
+        const allItems = carouselContainer.querySelectorAll('.carousel-item');
+        
+        // L'index actif commence au premier élément original (qui est précédé par numClones clones)
+        let activeIndex = numClones; 
+        let isTransitioning = false;
+        let autoplayTimer = null;
+        const autoplayInterval = 5000; // 5 secondes
+
+        function updateCarousel(useTransition = true) {
+            if (useTransition) {
+                track.style.transition = 'transform 0.6s cubic-bezier(0.25, 1, 0.5, 1)';
+            } else {
+                track.style.transition = 'none';
+            }
+
+            // Calculer l'index original équivalent pour les indicateurs (dots)
+            let originalActiveIndex = (activeIndex - numClones) % originalCount;
+            if (originalActiveIndex < 0) originalActiveIndex += originalCount;
+
+            // Mise à jour de la classe active pour les cartes
+            allItems.forEach((item, index) => {
+                if (index === activeIndex) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+
+            // Mise à jour de la classe active pour les points indicateurs (dots)
+            dots.forEach((dot, index) => {
+                if (index === originalActiveIndex) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+
+            // Centrage de l'élément actif dans le viewport
+            const itemWidth = allItems[0].offsetWidth;
+            const style = window.getComputedStyle(track);
+            const gap = parseInt(style.gap) || 24;
+
+            const viewportWidth = carouselContainer.querySelector('.carousel-viewport').offsetWidth;
+            const offset = (viewportWidth / 2) - (itemWidth / 2) - (activeIndex * (itemWidth + gap));
+            
+            track.style.transform = `translateX(${offset}px)`;
+        }
+
+        // Saut invisible lors de la fin d'une transition de débordement pour un défilement infini et fluide
+        track.addEventListener('transitionend', () => {
+            isTransitioning = false;
+            
+            // Si on a glissé vers la droite au-delà du dernier original (sur le clone de l'index 0)
+            if (activeIndex >= numClones + originalCount) {
+                activeIndex = numClones; // Saut instantané vers le premier original équivalent
+                updateCarousel(false); // Mise à jour instantanée sans transition visuelle
+            }
+            // Si on a glissé vers la gauche au-delà du premier original (sur le clone de l'index 6)
+            else if (activeIndex < numClones) {
+                activeIndex = numClones + originalCount - 1; // Saut instantané vers le dernier original équivalent
+                updateCarousel(false); // Mise à jour instantanée sans transition visuelle
+            }
+        });
+
+        function moveNext() {
+            if (isTransitioning) return;
+            isTransitioning = true;
+            activeIndex++;
+            updateCarousel(true);
+        }
+
+        function movePrev() {
+            if (isTransitioning) return;
+            isTransitioning = true;
+            activeIndex--;
+            updateCarousel(true);
+        }
+
+        function startAutoplay() {
+            stopAutoplay();
+            autoplayTimer = setInterval(moveNext, autoplayInterval);
+        }
+
+        function stopAutoplay() {
+            if (autoplayTimer) {
+                clearInterval(autoplayTimer);
+                autoplayTimer = null;
+            }
+        }
+
+        // Navigation par boutons
+        btnPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            movePrev();
+            startAutoplay(); // Relancer le timer d'autoplay
+        });
+
+        btnNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            moveNext();
+            startAutoplay(); // Relancer le timer d'autoplay
+        });
+
+        // Navigation par points indicateurs (dots)
+        dots.forEach(dot => {
+            dot.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (isTransitioning) return;
+                
+                const targetOriginalIndex = parseInt(dot.getAttribute('data-index'));
+                activeIndex = numClones + targetOriginalIndex;
+                isTransitioning = true;
+                updateCarousel(true);
+                startAutoplay();
+            });
+        });
+
+        // Réattacher les écouteurs de clic Lightbox aux clones dynamiques
+        track.querySelectorAll('.clone-item .lightbox-trigger').forEach(img => {
+            img.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const lightbox = document.getElementById('lightbox');
+                const lightboxImg = document.getElementById('lightbox-img');
+                lightboxImg.src = this.src;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        // Pause de l'autoplay au survol
+        carouselContainer.addEventListener('mouseenter', stopAutoplay);
+        carouselContainer.addEventListener('mouseleave', startAutoplay);
+
+        // Initialisation initiale du carrousel
+        updateCarousel(true);
+        startAutoplay();
+
+        // Recalcul du centrage lors du redimensionnement de l'écran
+        window.addEventListener('resize', () => {
+            updateCarousel(false); // Redimensionnement instantané sans transition pour éviter les saccades
+        });
+    }
 </script>
 
 </body>
